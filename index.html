@@ -366,7 +366,18 @@
     <header>
         <div class="bg-animation"></div>
         <div class="profile-container">
-            <img src="C:\Users\HP\Downloads\photo.jpg" alt="My Profile Picture" class="profile-pic">
+            <span id="clickableWord" style="color: blue; cursor: pointer;">Click here</span>
+
+<!-- The Image (Hidden by default) -->
+<img id="popupImage" src="https://your-image-url.jpg" style="display: none; max-width: 90%; margin-top: 20px;" alt="Your Image">
+
+<!-- JavaScript Code -->
+<script>
+    document.getElementById('clickableWord').onclick = function () {
+        const image = document.getElementById('popupImage');
+        image.style.display = image.style.display === 'none' ? 'block' : 'none';
+    };
+</script>
             <h1>Manthan Pagaria</h1>
             <p class="tagline">Web Developer | Student | Enthusiast</p>
         </div>
@@ -433,9 +444,18 @@
                             <span>BitNBuild 2024</span>
                         </div>
                         <p class="skill-description">Developed a web application for companies to book turf for corporate matches. Won 1st place in the Fe's.</p>
-                        <button class="cert-btn add-image-upload" data-for="codefest-certificate">
-                            <span class="icon">🏆</span> Add Certificate
-                        </button>
+                       <span id="clickableWord" style="color: blue; cursor: pointer;">Click for Certificate</span>
+
+<!-- The Image (Hidden by default) -->
+<img id="popupImage" src="BitnBuild (2).jpg" style="display: none; max-width: 90%; margin-top: 20px;" alt="Your Image">
+
+<!-- JavaScript Code -->
+<script>
+    document.getElementById('clickableWord').onclick = function () {
+        const image = document.getElementById('popupImage');
+        image.style.display = image.style.display === 'none' ? 'block' : 'none';
+    };
+</script>
                     </div>
                     <div class="skill-item">
                         <div class="skill-title">
@@ -491,27 +511,60 @@
                         </div>
                         <p class="skill-description">This was a marthon organized by Rotract Club of CRC </p>
 			<p>I learned about crowd management and was assigned to direct the runners and regulate the traffic</p>
-                        <button class="cert-btn add-image-upload" data-for="code-camp-volunteer">
-                            <span class="icon">🤝</span> Add Certificate
-                        </button>
+                        <!-- Clickable Word -->
+<span id="clickableWord" style="color: blue; cursor: pointer;">Click here for Certificate</span>
+
+<!-- The Image (Hidden by default) -->
+<img id="popupImage" src="rotract.jpg" style="display: none; max-width: 90%; margin-top: 20px;" alt="Your Image">
+
+<!-- JavaScript Code -->
+<script>
+    document.getElementById('clickableWord').onclick = function () {
+        const image = document.getElementById('popupImage');
+        image.style.display = image.style.display === 'none' ? 'block' : 'none';
+    };
+</script>
+
                     </div>
                     <div class="skill-item">
                         <div class="skill-title">
                             <span>Environmental Clean-up Drive at Girgaon Chowpatty</span>
                         </div>
                         <p class="skill-description">Organized and participated in beach clean-up initiatives.</p>
-                        <button class="cert-btn add-image-upload" data-for="environmental-certificate">
-                            <span class="icon">🌱</span> Add Certificate
-                        </button>
+                        <!-- Clickable Word -->
+<span id="clickableWord" style="color: blue; cursor: pointer;">Click here for Certificate</span>
+
+<!-- The Image (Hidden by default) -->
+<img id="popupImage" src="Manthan Pagaria Cleanup Certificate.pdf" style="display: none; max-width: 90%; margin-top: 20px;" alt="Your Image">
+
+<!-- JavaScript Code -->
+<script>
+    document.getElementById('clickableWord').onclick = function () {
+        const image = document.getElementById('popupImage');
+        image.style.display = image.style.display === 'none' ? 'block' : 'none';
+    };
+</script>
+
                     </div>
 		<div class="skill-item">
                         <div class="skill-title">
                             <span>Blood Donation</span>
                         </div>
                         <p class="skill-description">Volunteered in Blood Donation campaign by Holy Family Hospital</p>
-                        <button class="cert-btn add-image-upload" data-for="donation-certificate">
-                            <span class="icon">🩸</span> Add Certificate
-                        </button>
+                       <!-- Clickable Word -->
+<span id="clickableWord" style="color: blue; cursor: pointer;">Click here for Certificate</span>
+
+<!-- The Image (Hidden by default) -->
+<img id="popupImage" src="donation.jpg" style="display: none; max-width: 90%; margin-top: 20px;" alt="Your Image">
+
+<!-- JavaScript Code -->
+<script>
+    document.getElementById('clickableWord').onclick = function () {
+        const image = document.getElementById('popupImage');
+        image.style.display = image.style.display === 'none' ? 'block' : 'none';
+    };
+</script>
+
                     </div>
                 </div>
             </div>
