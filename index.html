@@ -366,18 +366,7 @@
     <header>
         <div class="bg-animation"></div>
         <div class="profile-container">
-            <span id="clickableWord" style="color: blue; cursor: pointer;">Click here</span>
-
-<!-- The Image (Hidden by default) -->
-<img id="popupImage" src="https://your-image-url.jpg" style="display: none; max-width: 90%; margin-top: 20px;" alt="Your Image">
-
-<!-- JavaScript Code -->
-<script>
-    document.getElementById('clickableWord').onclick = function () {
-        const image = document.getElementById('popupImage');
-        image.style.display = image.style.display === 'none' ? 'block' : 'none';
-    };
-</script>
+            <img src="C:\Users\HP\Downloads\photo.jpg" alt="My Profile Picture" class="profile-pic">
             <h1>Manthan Pagaria</h1>
             <p class="tagline">Web Developer | Student | Enthusiast</p>
         </div>
@@ -754,8 +743,8 @@
                 const img = document.createElement('img');
                 img.src = imageUrl;
                 img.alt = 'Certificate';
-                img.className = 'certificate-img';
-                certificateContainer.appendChild(img);
+                .className = 'certificate-';
+                certificateContainer.appendChild();
             } else {
                 // Just try as an image anyway
                 const img = document.createElement('img');
